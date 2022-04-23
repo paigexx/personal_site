@@ -11,3 +11,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+:root {
+  --background: 
+    linear-gradient(
+      -45deg,
+      #c54c82,
+      #ec729c,
+      #f4aeba,
+      #fdfdcb );; 
+  --text-primary: black;
+  --text-secondary: black;
+  --navbarbg: white;
+}
+
+[data-theme='dark'] {
+  --background: linear-gradient(
+    -45deg,
+    black,
+    rgb(25, 26, 25),
+    rgb(45, 46, 45),
+    rgb(80, 83, 80) );;  
+  --text-primary: white;
+  --text-secondary: white;
+  --navbarbg: black;
+}
+
+#custom-switch :active{
+  color:#c54c82;
+}

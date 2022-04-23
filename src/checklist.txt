@@ -1,0 +1,5 @@
+1. list projects
+2. Add resume
+3. Gradient
+4. Dark mode
+5. Nice Logo
