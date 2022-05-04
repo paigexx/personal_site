@@ -1,5 +1,6 @@
 import React from "react"
-import { Navbar, Nav, Form} from "react-bootstrap";
+import { Navbar, Nav, Button} from "react-bootstrap";
+
 
 
 
@@ -17,14 +18,9 @@ const NavBar = props => {
                 <Nav.Link href="/contact">Hire Me</Nav.Link>
                 </Nav>
             </Navbar>
-            <Form>
-                <Form.Check 
-                    type="switch"
-                    id="custom-switch"
-                    onChange={switchTheme}
-                    
-                />
-            </Form>
+            <Button onClick={switchTheme} variant={theme === "light" ? "dark" : "light"} size="md">
+                    {theme === "light" ? "dark mode" : "light mode"}
+            </Button>
         </div>
     )
 }

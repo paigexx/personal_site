@@ -29,6 +29,7 @@ h1, h3 {
 
 .navbar {
   background-color: var(--navbarbg);
+  padding: 2em;
 }
 
 .nav-link{
